@@ -14,5 +14,5 @@ jobs:
       - uses: justlammer/udumbs@main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GIT_NAME: ${{ secrets.USERNAME }}
-          GIT_EMAIL: ${{ secrets.EMAIL }}
+          GITHUB_NAME: ${{ secrets.USERNAME }}
+          GITHUB_EMAIL: ${{ secrets.EMAIL }}
