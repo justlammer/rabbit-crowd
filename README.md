@@ -1,2 +1,3 @@
 # rabbit-crowd
-kelinci percobaan
+
+![Generated SVG](assets/contrib.svg)
