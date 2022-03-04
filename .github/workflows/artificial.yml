@@ -18,4 +18,4 @@ jobs:
           GITHUB_EMAIL: ${{ secrets.EMAIL }}
           MIN_COMMITS: 1
           MAX_COMMITS: 15
-          NO_COMMITS: '[friday, saturday, monday]'
+          NO_COMMITS: '[friday, sunday, monday]'
