@@ -16,3 +16,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_NAME: ${{ secrets.USERNAME }}
           GITHUB_EMAIL: ${{ secrets.EMAIL }}
+          MIN_COMMITS: 1
+          MAX_COMMITS: 15
+          NO_COMMITS: '[friday, saturday, monday]'
