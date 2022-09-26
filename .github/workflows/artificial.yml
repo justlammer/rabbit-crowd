@@ -2,7 +2,8 @@ name: Populate
 
 on:
   schedule:
-    - cron: '*/5  * * * *'
+    # - cron: '*/5  * * * *'
+    - cron: '*/1  * * * *'
   workflow_dispatch:
 
 jobs:
@@ -16,6 +17,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_NAME: ${{ secrets.USERNAME }}
           GITHUB_EMAIL: ${{ secrets.EMAIL }}
+          MODE: basic
           MIN_COMMITS: 1
-          MAX_COMMITS: 15
-          NO_COMMITS: '[sunday, monday]'
+          MAX_COMMITS: 5
+          # NO_COMMITS: '[sunday, monday]'
